@@ -35,3 +35,8 @@ Installation Instructions
    npm run dev
 
 The dashboard will now be accessible at http://localhost:5173.
+
+
+Deployed on Netlify
+
+https://accuknoxfrontendassignment.netlify.app/
