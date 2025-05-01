@@ -1,12 +1,37 @@
-# React + Vite
+Description
+This project is a dynamic dashboard built using React and Tailwind CSS. The goal is to create a flexible dashboard where widgets can be managed dynamically. The dashboard allows users to:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Add and remove widgets from different categories.
+2. Customize widgets by entering a name and description.
+3. Integrate widgets into specific categories, allowing easy categorization and management.
 
-Currently, two official plugins are available:
+The state of the dashboard is managed using Redux, enabling efficient updates and consistent UI rendering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+1. Dynamic Widget Display :- The dashboard is generated dynamically from a JSON object that defines multiple categories. Each category can contain multiple widgets.
+2. Add and Remove Widgets :- Users can add a widget by clicking on the +Add Widget button. This will prompt the user to enter a Widget Name and Widget Text, which will then be added to the selected category.Users can remove widgets from a category either by clicking on the cross icon on each widget or by unchecking the widget from the category list in the Add Category section.
+3. Widget Categories :- Widgets are organized into different categories. Each category (e.g., CSPM Executive Dashboard) can contain multiple widgets.
 
-## Expanding the ESLint configuration
+Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   Frontend:
+   1. React.js
+   2. Tailwind CSS
+   3. Redux (for state management)
+   4. React-Redux library (for integrating Redux with React)
+      
+Installation Instructions
+1. Clone the repository:
+
+   git clone https://github.com/yourusername/AccuKnox-Dashboard.git
+2. Navigate to the project folder:
+
+   cd AccuKnox-Dashboard
+3. Install dependencies:
+   
+   npm install
+4. Start the development server:
+
+   npm run dev
+
+The dashboard will now be accessible at http://localhost:5173.
